@@ -1,0 +1,1 @@
+import{ch as o,ci as r}from"./entry-21db2f40.mjs";var d=o((e,u)=>{let{type:a,page:t}=e.params,{keyword:i}=e.query;if(!i)return r("\u641C\u7D22\u5185\u5BB9\u4E0D\u53EF\u4EE5\u4E3A\u7A7A\uFF01");if(!["course","column"].includes(a)||isNaN(+t))return r("Code:404! \u9875\u9762\u8D70\u4E22\u4E86")});export{d as default};

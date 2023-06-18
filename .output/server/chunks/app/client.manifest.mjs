@@ -1,0 +1,854 @@
+const client_manifest = {
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-21db2f40.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/bbs/[bbs_id]/[page].vue",
+      "pages/bindphone.vue",
+      "pages/book/[book_id]/[id].vue",
+      "pages/book/[book_id].vue",
+      "pages/createorder.vue",
+      "pages/detail/[type]/[id].vue",
+      "pages/forget.vue",
+      "pages/index.vue",
+      "pages/list/[type]/[page].vue",
+      "pages/login.vue",
+      "pages/paper/[page].vue",
+      "pages/paper_test/[id].vue",
+      "pages/pay.vue",
+      "pages/post_detail/[id].vue",
+      "pages/search/[type]/[page].vue",
+      "pages/user/buy/[page].vue",
+      "pages/user/coupon/[page].vue",
+      "pages/user/edit.vue",
+      "pages/user/fava/[page].vue",
+      "pages/user/history/[page].vue",
+      "pages/user/other.vue",
+      "pages/user/password.vue",
+      "pages/user/post/[page].vue",
+      "pages/user/test/[page].vue",
+      "pages/user.vue",
+      "middleware/auth.ts",
+      "middleware/createorder.js",
+      "middleware/list.js",
+      "middleware/only-visitor.js",
+      "middleware/search.js",
+      "layouts/default.vue",
+      "layouts/login.vue"
+    ],
+    "css": [
+      "entry.13258d29.css"
+    ]
+  },
+  "pages/bbs/[bbs_id]/[page].vue": {
+    "file": "_page_-d5c06bbd.mjs",
+    "src": "pages/bbs/[bbs_id]/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_Tab-9b83bf34.mjs",
+      "_PostList-576fe246.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_HotCourseList-2391f2df.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_utils-4e919375.mjs",
+      "_Icon-8b068cec.mjs",
+      "_ThumbsUpSharp-92759cd9.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Price-f7b39efa.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "_Pagination-2bc07178.mjs": {
+    "file": "Pagination-2bc07178.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_create-f83f90a7.mjs"
+    ]
+  },
+  "_Tab-9b83bf34.mjs": {
+    "file": "Tab-9b83bf34.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_PostList-576fe246.mjs": {
+    "file": "PostList-576fe246.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Icon-8b068cec.mjs",
+      "_ThumbsUpSharp-92759cd9.mjs"
+    ]
+  },
+  "_Group-1cd53dfb.mjs": {
+    "file": "Group-1cd53dfb.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "_HotCourseList-2391f2df.mjs": {
+    "file": "HotCourseList-2391f2df.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_CourseList-311e2910.mjs"
+    ]
+  },
+  "_Grid-87bc6c3f.mjs": {
+    "file": "Grid-87bc6c3f.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_get-slot-f07f150d.mjs",
+      "_next-frame-once-08317937.mjs"
+    ]
+  },
+  "_Tag-06ce51bd.mjs": {
+    "file": "Tag-06ce51bd.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Image-ec1fc6fc.mjs": {
+    "file": "Image-ec1fc6fc.mjs",
+    "imports": [
+      "_utils-4e919375.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Popover-ea85df19.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_next-frame-once-08317937.mjs"
+    ]
+  },
+  "_Icon-8b068cec.mjs": {
+    "file": "Icon-8b068cec.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-merged-state-aa6f3d5b.mjs"
+    ]
+  },
+  "_ThumbsUpSharp-92759cd9.mjs": {
+    "file": "ThumbsUpSharp-92759cd9.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_CourseList-311e2910.mjs": {
+    "file": "CourseList-311e2910.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Price-f7b39efa.mjs"
+    ]
+  },
+  "_get-slot-f07f150d.mjs": {
+    "file": "get-slot-f07f150d.mjs"
+  },
+  "_next-frame-once-08317937.mjs": {
+    "file": "next-frame-once-08317937.mjs"
+  },
+  "_use-locale-d1b818a5.mjs": {
+    "file": "use-locale-d1b818a5.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_use-merged-state-aa6f3d5b.mjs": {
+    "file": "use-merged-state-aa6f3d5b.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Input-16e77b41.mjs": {
+    "file": "Input-16e77b41.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs"
+    ]
+  },
+  "_utils-4e919375.mjs": {
+    "file": "utils-4e919375.mjs"
+  },
+  "_Price-f7b39efa.mjs": {
+    "file": "Price-f7b39efa.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Popover-ea85df19.mjs": {
+    "file": "Popover-ea85df19.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_next-frame-once-08317937.mjs"
+    ]
+  },
+  "_create-f83f90a7.mjs": {
+    "file": "create-f83f90a7.mjs"
+  },
+  "_get-bc1ef6a5.mjs": {
+    "file": "get-bc1ef6a5.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/bindphone.vue": {
+    "file": "bindphone-4bc58378.mjs",
+    "src": "pages/bindphone.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_SendCode-99f1662e.mjs",
+      "_FormItem-38aec32c.mjs",
+      "_Input-16e77b41.mjs",
+      "_InputGroup-0af29b12.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "_SendCode-99f1662e.mjs": {
+    "file": "SendCode-99f1662e.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_FormItem-38aec32c.mjs": {
+    "file": "FormItem-38aec32c.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_get-bc1ef6a5.mjs"
+    ]
+  },
+  "_InputGroup-0af29b12.mjs": {
+    "file": "InputGroup-0af29b12.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/book/[book_id]/[id].vue": {
+    "file": "_id_-14519c30.mjs",
+    "src": "pages/book/[book_id]/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_book-479372d1.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "_book-479372d1.mjs": {
+    "file": "book-479372d1.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/book/[book_id].vue": {
+    "file": "_book_id_-cec475a3.mjs",
+    "src": "pages/book/[book_id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_book-479372d1.mjs",
+      "_Menu-d21cd997.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_get-slot-f07f150d.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_utils-4e919375.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs"
+    ]
+  },
+  "_Menu-d21cd997.mjs": {
+    "file": "Menu-d21cd997.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Tag-06ce51bd.mjs"
+    ]
+  },
+  "pages/createorder.vue": {
+    "file": "createorder-468baf76.mjs",
+    "src": "pages/createorder.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_order-2a28a7fd.mjs",
+      "_Price-f7b39efa.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Icon-8b068cec.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_utils-4e919375.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "_order-2a28a7fd.mjs": {
+    "file": "order-2a28a7fd.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/detail/[type]/[id].vue": {
+    "file": "_id_-6b12759b.mjs",
+    "src": "pages/detail/[type]/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_common-39bc1520.mjs",
+      "_HotCourseList-2391f2df.mjs",
+      "_order-2a28a7fd.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Price-f7b39efa.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_Popover-ea85df19.mjs",
+      "_Menu-d21cd997.mjs",
+      "_Alert-ea06a089.mjs",
+      "_Tab-9b83bf34.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_utils-4e919375.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "_common-39bc1520.mjs": {
+    "file": "common-39bc1520.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Alert-ea06a089.mjs": {
+    "file": "Alert-ea06a089.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/forget.vue": {
+    "file": "forget-8eeeeecd.mjs",
+    "src": "pages/forget.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_SendCode-99f1662e.mjs",
+      "_Alert-ea06a089.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_FormItem-38aec32c.mjs",
+      "_Input-16e77b41.mjs",
+      "_InputGroup-0af29b12.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "index-a38068aa.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_get-slot-f07f150d.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Price-f7b39efa.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "pages/list/[type]/[page].vue": {
+    "file": "_page_-387d3118.mjs",
+    "src": "pages/list/[type]/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_common-39bc1520.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_CourseSkeleton-aeaa60b6.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Price-f7b39efa.mjs",
+      "_BreadcrumbItem-d842e664.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "_CourseSkeleton-aeaa60b6.mjs": {
+    "file": "CourseSkeleton-aeaa60b6.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_Group-1cd53dfb.mjs"
+    ]
+  },
+  "_BreadcrumbItem-d842e664.mjs": {
+    "file": "BreadcrumbItem-d842e664.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/login.vue": {
+    "file": "login-8ffa4bce.mjs",
+    "src": "pages/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_FormItem-38aec32c.mjs",
+      "_Input-16e77b41.mjs",
+      "_Alert-ea06a089.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "pages/paper/[page].vue": {
+    "file": "_page_-708318d6.mjs",
+    "src": "pages/paper/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_common-39bc1520.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_HotCourseList-2391f2df.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Price-f7b39efa.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "pages/paper_test/[id].vue": {
+    "file": "_id_-d758a02f.mjs",
+    "src": "pages/paper_test/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Icon-8b068cec.mjs",
+      "_Input-16e77b41.mjs",
+      "_TimeBox-caea4e56.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_Divider-96cbb6d0.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_get-slot-f07f150d.mjs",
+      "_next-frame-once-08317937.mjs"
+    ]
+  },
+  "_TimeBox-caea4e56.mjs": {
+    "file": "TimeBox-caea4e56.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Divider-96cbb6d0.mjs": {
+    "file": "Divider-96cbb6d0.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/pay.vue": {
+    "file": "pay-4d508e52.mjs",
+    "src": "pages/pay.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_order-2a28a7fd.mjs",
+      "_TimeBox-caea4e56.mjs",
+      "_Price-f7b39efa.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Alert-ea06a089.mjs",
+      "_Icon-8b068cec.mjs",
+      "_utils-4e919375.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "pages/post_detail/[id].vue": {
+    "file": "_id_-977ad36f.mjs",
+    "src": "pages/post_detail/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_HotCourseList-2391f2df.mjs",
+      "_ThumbsUpSharp-92759cd9.mjs",
+      "_Icon-8b068cec.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_BreadcrumbItem-d842e664.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_Divider-96cbb6d0.mjs",
+      "_Avatar-a2a8fb7e.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_create-f83f90a7.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Price-f7b39efa.mjs",
+      "_utils-4e919375.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "_Avatar-a2a8fb7e.mjs": {
+    "file": "Avatar-a2a8fb7e.mjs",
+    "imports": [
+      "_utils-4e919375.mjs",
+      "_Tag-06ce51bd.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/search/[type]/[page].vue": {
+    "file": "_page_-a90d2e78.mjs",
+    "src": "pages/search/[type]/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_common-39bc1520.mjs",
+      "_Tab-9b83bf34.mjs",
+      "_CourseSkeleton-aeaa60b6.mjs",
+      "_CourseList-311e2910.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs",
+      "_Price-f7b39efa.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "pages/user/buy/[page].vue": {
+    "file": "_page_-d02f066b.mjs",
+    "src": "pages/user/buy/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_index-1d09579b.mjs",
+      "_Price-f7b39efa.mjs",
+      "_Footer-4062071b.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs"
+    ]
+  },
+  "_index-1d09579b.mjs": {
+    "file": "index-1d09579b.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_Footer-4062071b.mjs": {
+    "file": "Footer-4062071b.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/user/coupon/[page].vue": {
+    "file": "_page_-b9ac5657.mjs",
+    "src": "pages/user/coupon/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs",
+      "_get-slot-f07f150d.mjs"
+    ]
+  },
+  "pages/user/edit.vue": {
+    "file": "edit-5c9e6ad6.mjs",
+    "src": "pages/user/edit.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Popover-ea85df19.mjs",
+      "_Progress-258a87c4.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Input-16e77b41.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_FormItem-38aec32c.mjs",
+      "_get-slot-f07f150d.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_utils-4e919375.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "_Progress-258a87c4.mjs": {
+    "file": "Progress-258a87c4.mjs",
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-merged-state-aa6f3d5b.mjs"
+    ]
+  },
+  "pages/user/fava/[page].vue": {
+    "file": "_page_-4573fdd8.mjs",
+    "src": "pages/user/fava/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_create-f83f90a7.mjs",
+      "_utils-4e919375.mjs"
+    ]
+  },
+  "pages/user/history/[page].vue": {
+    "file": "_page_-fad3b051.mjs",
+    "src": "pages/user/history/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_Tab-9b83bf34.mjs",
+      "_index-1d09579b.mjs",
+      "_Progress-258a87c4.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_create-f83f90a7.mjs"
+    ]
+  },
+  "pages/user/other.vue": {
+    "file": "other-224d9673.mjs",
+    "src": "pages/user/other.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/user/password.vue": {
+    "file": "password-57d8a1a0.mjs",
+    "src": "pages/user/password.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_FormItem-38aec32c.mjs",
+      "_Input-16e77b41.mjs",
+      "_Alert-ea06a089.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_use-locale-d1b818a5.mjs"
+    ]
+  },
+  "pages/user/post/[page].vue": {
+    "file": "_page_-ce96a57a.mjs",
+    "src": "pages/user/post/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_PostList-576fe246.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs",
+      "_Image-ec1fc6fc.mjs",
+      "_utils-4e919375.mjs",
+      "_Icon-8b068cec.mjs",
+      "_ThumbsUpSharp-92759cd9.mjs"
+    ]
+  },
+  "pages/user/test/[page].vue": {
+    "file": "_page_-2f2eb7fa.mjs",
+    "src": "pages/user/test/[page].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Pagination-2bc07178.mjs",
+      "_index-1d09579b.mjs",
+      "_Footer-4062071b.mjs",
+      "_Group-1cd53dfb.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_Tag-06ce51bd.mjs",
+      "_create-f83f90a7.mjs"
+    ]
+  },
+  "pages/user.vue": {
+    "file": "user-dab2ebdf.mjs",
+    "src": "pages/user.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_Grid-87bc6c3f.mjs",
+      "_get-slot-f07f150d.mjs",
+      "_next-frame-once-08317937.mjs"
+    ]
+  },
+  "middleware/auth.ts": {
+    "file": "auth-7ab524d3.mjs",
+    "src": "middleware/auth.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "middleware/createorder.js": {
+    "file": "createorder-7a2ebf49.mjs",
+    "src": "middleware/createorder.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "middleware/list.js": {
+    "file": "list-28c5375d.mjs",
+    "src": "middleware/list.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "middleware/only-visitor.js": {
+    "file": "only-visitor-ea8bd455.mjs",
+    "src": "middleware/only-visitor.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "middleware/search.js": {
+    "file": "search-2914b900.mjs",
+    "src": "middleware/search.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "default-c869a886.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_use-merged-state-aa6f3d5b.mjs",
+      "_InputGroup-0af29b12.mjs",
+      "_Input-16e77b41.mjs",
+      "_Popover-ea85df19.mjs",
+      "_Icon-8b068cec.mjs",
+      "_create-f83f90a7.mjs",
+      "_Avatar-a2a8fb7e.mjs",
+      "_use-locale-d1b818a5.mjs",
+      "_get-bc1ef6a5.mjs",
+      "_next-frame-once-08317937.mjs",
+      "_utils-4e919375.mjs",
+      "_Tag-06ce51bd.mjs"
+    ],
+    "css": [
+      "default.b1d49ded.css"
+    ]
+  },
+  "layouts/login.vue": {
+    "file": "login-f488f243.mjs",
+    "src": "layouts/login.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  }
+};
+
+export { client_manifest as default };
+//# sourceMappingURL=client.manifest.mjs.map

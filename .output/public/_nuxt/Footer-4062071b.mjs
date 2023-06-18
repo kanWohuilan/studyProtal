@@ -1,0 +1,1 @@
+import{_ as o,o as r,e as s,B as t}from"./entry-21db2f40.mjs";const _={},n={class:"bg-gray-50 p-3"};function c(e,a){return r(),s("div",n,[t(e.$slots,"default")])}var d=o(_,[["render",c]]);export{d as _};

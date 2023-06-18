@@ -1,0 +1,1 @@
+import{at as e}from"./entry-21db2f40.mjs";function i(o){return e("bookMenus",`/book/menus?id=${o}`,{lazy:!0})}function a(o,t){return e("bookDetail",`/book/detail?book_id=${o}&id=${t}`,{lazy:!0})}export{i as a,a as u};

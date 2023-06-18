@@ -1,0 +1,1 @@
+import{ch as o,bU as t,ao as a}from"./entry-21db2f40.mjs";var u=o((s,r)=>{if(t("token").value){{const{message:e}=a(["message"]);e.warning("\u60A8\u5DF2\u767B\u5F55\uFF0C\u8BF7\u52FF\u91CD\u590D\u767B\u5F55")}return"/"}});export{u as default};
